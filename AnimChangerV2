@@ -35,7 +35,7 @@ ZombieRun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ZombieRun.Position = UDim2.new(0, 0, 0.216216221, 0)
 ZombieRun.Size = UDim2.new(0, 151, 0, 30)
 ZombieRun.Font = Enum.Font.SourceSans
-ZombieRun.Text = "Zombie Walk"
+ZombieRun.Text = "Zombie Run"
 ZombieRun.TextColor3 = Color3.fromRGB(0, 0, 0)
 ZombieRun.TextSize = 14.000
 ZombieRun.MouseButton1Click:Connect(function()
