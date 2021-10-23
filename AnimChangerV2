@@ -39,7 +39,7 @@ ZombieRun.Text = "Zombie Run"
 ZombieRun.TextColor3 = Color3.fromRGB(0, 0, 0)
 ZombieRun.TextSize = 14.000
 ZombieRun.MouseButton1Click:Connect(function()
-	Animate.run.RunAnim.AnimationId = "https://www.roblox.com/catalog/619536621/Zombie-Run"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
 	game.Players.LocalPlayer.Character.Humanoid.Run = true
 end)
 
