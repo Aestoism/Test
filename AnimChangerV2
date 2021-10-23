@@ -1,0 +1,114 @@
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local ZombieRun = Instance.new("TextButton")
+local MageFall = Instance.new("TextButton")
+local NinjaJump = Instance.new("TextButton")
+local ZombieWalk = Instance.new("TextButton")
+local ToyIdle = Instance.new("TextButton")
+local MageSwim = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Workspace
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(49, 44, 44)
+main.Position = UDim2.new(0.681349576, 0, 0.485089451, 0)
+main.Size = UDim2.new(0, 340, 0, 259)
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(117, 117, 117)
+label.Size = UDim2.new(0, 340, 0, 50)
+label.Font = Enum.Font.SourceSans
+label.Text = "Anim Changer | Made by Astro"
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+label.TextSize = 14.000
+
+ZombieRun.Name = "Zombie Run"
+ZombieRun.Parent = main
+ZombieRun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ZombieRun.Position = UDim2.new(0, 0, 0.216216221, 0)
+ZombieRun.Size = UDim2.new(0, 151, 0, 30)
+ZombieRun.Font = Enum.Font.SourceSans
+ZombieRun.Text = "Zombie Walk"
+ZombieRun.TextColor3 = Color3.fromRGB(0, 0, 0)
+ZombieRun.TextSize = 14.000
+ZombieRun.MouseButton1Click:Connect(function()
+	Animate.run.RunAnim.AnimationId = "https://www.roblox.com/catalog/619536621/Zombie-Run"
+	game.Players.LocalPlayer.Character.Humanoid.Run = true
+end)
+
+MageFall.Name = "Mage Fall"
+MageFall.Parent = main
+MageFall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MageFall.Position = UDim2.new(0.511764705, 0, 0.216216221, 0)
+MageFall.Size = UDim2.new(0, 151, 0, 30)
+MageFall.Font = Enum.Font.SourceSans
+MageFall.Text = "Mage Fall"
+MageFall.TextColor3 = Color3.fromRGB(0, 0, 0)
+MageFall.TextSize = 14.000
+MageFall.MouseButton1Click:Connect(function()
+	Animate.fall.FallAnim.AnimationId = "https://www.roblox.com/catalog/754636589/Mage-Fall"
+	game.Players.LocalPlayer.Character.Humanoid.Fall = true
+end)
+
+NinjaJump.Name = "Ninja Jump"
+NinjaJump.Parent = main
+NinjaJump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NinjaJump.Position = UDim2.new(0, 0, 0.366795361, 0)
+NinjaJump.Size = UDim2.new(0, 151, 0, 30)
+NinjaJump.Font = Enum.Font.SourceSans
+NinjaJump.Text = "Ninja Jump"
+NinjaJump.TextColor3 = Color3.fromRGB(0, 0, 0)
+NinjaJump.TextSize = 14.000
+
+ZombieWalk.Name = "Zombie Walk"
+ZombieWalk.Parent = main
+ZombieWalk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ZombieWalk.Position = UDim2.new(0.511764705, 0, 0.366795361, 0)
+ZombieWalk.Size = UDim2.new(0, 151, 0, 30)
+ZombieWalk.Font = Enum.Font.SourceSans
+ZombieWalk.Text = "Zombie Walk"
+ZombieWalk.TextColor3 = Color3.fromRGB(0, 0, 0)
+ZombieWalk.TextSize = 14.000
+
+ToyIdle.Name = "Toy Idle"
+ToyIdle.Parent = main
+ToyIdle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToyIdle.Position = UDim2.new(0, 0, 0.521235526, 0)
+ToyIdle.Size = UDim2.new(0, 151, 0, 30)
+ToyIdle.Font = Enum.Font.SourceSans
+ToyIdle.Text = "Toy Idle"
+ToyIdle.TextColor3 = Color3.fromRGB(0, 0, 0)
+ToyIdle.TextSize = 14.000
+
+MageSwim.Name = "Mage Swim"
+MageSwim.Parent = main
+MageSwim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MageSwim.Position = UDim2.new(0.511764705, 0, 0.521235526, 0)
+MageSwim.Size = UDim2.new(0, 151, 0, 30)
+MageSwim.Font = Enum.Font.SourceSans
+MageSwim.Text = "Mage Swim"
+MageSwim.TextColor3 = Color3.fromRGB(0, 0, 0)
+MageSwim.TextSize = 14.000
+
+TextButton.Parent = main
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0, 0, 0.679536641, 0)
+TextButton.Size = UDim2.new(0, 151, 0, 30)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = main
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0.511764705, 0, 0.6795367, 0)
+TextButton_2.Size = UDim2.new(0, 151, 0, 30)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
